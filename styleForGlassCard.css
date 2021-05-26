@@ -1,0 +1,43 @@
+.spaceIn-200{
+    /* For Empty Spaces Of 200px*/
+    width: 100%;
+    height: 200px;
+}
+
+.spaceIn-100{
+    /* For Empty Spaces Of 100px*/
+    width: 100%;
+    height: 100px;
+}
+
+.spaceIn-50{
+    /* For Empty Spaces Of 50px */
+    width: 100%;
+    height: 50px;
+}
+.spaceIn-75{
+    width: 100%;
+    height: 75%;
+}
+
+.spaceHorizontal-1{
+    width: 100%;
+    height: 1%;
+}
+.asap-round{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: auto;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    box-shadow: #000 0.1px 0.1px 5px;
+    background: linear-gradient(45deg,#fffffd,white,#fffffd);
+
+}
+.asap-red{
+    background: red;
+}
