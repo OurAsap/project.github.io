@@ -89,3 +89,17 @@ padding: 15px 0px;
 .innerContent-buttonRow td{
     text-align: center;
 }
+.asap-round{
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 75%;
+    height: auto;
+    font-size: 16px;
+    padding: 8px;
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background: linear-gradient(45deg,#fffffd,white,#fffffd);
+    margin: auto;
+}
