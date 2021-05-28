@@ -27,15 +27,16 @@
 .asap-round{
     border-radius: 10px;
     border: 1px solid black;
-    width: 100px;
+    width: 75%;
     height: auto;
-    font-size: 18px;
-    padding: 10px;
+    font-size: 16px;
+    padding: 8%;
     text-decoration: none;
     color:black;
     text-align: center;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background: linear-gradient(45deg,#fffffd,white,#fffffd);
+    margin: auto;
 
 }
 .asap-red{

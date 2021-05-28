@@ -4,7 +4,9 @@
     <title>Store | ASAP</title>
     <link rel="stylesheet" href="./styleForIndex.css">
     <link rel="stylesheet" href="./styleForGlassCard.css">
-    <link rel="stylesheet" href="styleForFooter.css">
+    <link rel="stylesheet" href="./styleForFooter.css">
+    <link rel="stylesheet" href="./styleForStore.css">
+    <script src="./filterScript.js"></script>
     <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
@@ -19,12 +21,66 @@
     <!-- ********** M E N U ********** -->  
     <div class="mainClass">
       <div class="contentSection">
-        <div class="spaceIn-100"></div>
-      <!-- ********** R E S O U R C E  C O L L E C T I O N ********** -->
-      <div class="glass">
-          <p>Comming Soon...</p>
-        </div>
-        <!-- ********** R E S O U R C E  C O L L E C T I O N ********** -->
+          <div class="space-05">
+              <div class="underNavigation"></div>
+              <div class="belowNavigation">
+                  <marquee><h1>STORE - Coming Soon</h1></marquee>
+              </div>
+          </div>
+          <div class="filterSection">
+              <div class="filterPanel">
+                  <select name="Input" id="item">
+                      <option value="ICD">ICD</option>
+                      <option value="UG">UG</option>
+                  </select>
+                  <button type="button" onclick="search()"><strong>Apply</strong></button>
+              </div>
+          </div>
+          <table class="parentTable">
+              <tr class="ICD">
+                  <td><div class="glassy">
+                      <table class="glassy-innerContent">
+                          <tr class="innerContent-imageRow">
+                              <td style="text-align: center;">
+                                  Image will be here.
+                              </td>
+                          </tr>
+                          <tr class="innerContent-buttonRow">
+                              <td>
+                                  <a href="https://avigithub25.github.io/mysite.github.io/ICD/ASAPPROJECT.docx" download><div class="asap-round">Download | <i class="far fa-arrow-alt-circle-down"></i></div></a>
+                              </td>
+                          </tr>
+                      </table>
+                  </div></td>
+                  <td><div class="glassy"></div></td>
+                  <td><div class="glassy"></div></td>
+                  <td><div class="glassy"></div></td>
+              </tr>
+              <tr class="UG">
+                  <td><div class="glassy"></div></td>
+                  <td><div class="glassy"></div></td>
+                  <td><div class="glassy"></div></td>
+                  <td><div class="glassy"></div></td>
+              </tr>
+              <tr class="ICD">
+                  <td><div class="glassy"></div></td>
+                  <td><div class="glassy"></div></td>
+                  <td><div class="glassy"></div></td>
+                  <td><div class="glassy"></div></td>
+              </tr>
+              <tr class="UG">
+                  <td><div class="glassy"></div</td>
+                  <td><div class="glassy"></div</td>
+                  <td><div class="glassy"></div</td>
+                  <td><div class="glassy"></div</td>
+              </tr>
+              <tr class="ICD">
+                  <td><div class="glassy"></div</td>
+                  <td><div class="glassy"></div</td>
+                  <td><div class="glassy"></div</td>
+                  <td><div class="glassy"></div</td>
+              </tr>
+          </table>
       </div>
       <div class="footerSection" >
         <table class="mainFooterTable">
