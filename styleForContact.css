@@ -1,0 +1,134 @@
+.contentSection .contactUsSection{
+    width: 100%;
+    height: 50%;
+}
+.contentSection .aboutUsSection{
+    width: 100%;
+    height: 50%;
+    color: aliceblue;
+}
+.contactDescription{
+    width: 100%;
+    height: 20%;
+}
+.contactForm{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.ten{
+    width: 100%;
+    height: 10%;
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.contactForm table{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.contactForm td{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+}
+.subjectBox{
+    width: 60%;
+    height: 70%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    font-size: 18px;
+}
+.subjectBox:focus{
+    outline: none;
+}
+.mailLink a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    background-color: aliceblue;
+    padding: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.bodyBox{
+    width: 60%;
+    height: 90%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+}
+.bodyBox:focus{
+    outline: none;
+}
+.fullFormSpace{
+width:80%;
+height: 80%;
+margin: auto;
+}
+
+.aboutUsSection .aboutUsTable{
+    width: 100%;
+    height: 100%;
+}
+.aboutUsTable table{
+    width: 100%;
+    height: 100%;
+}
+td.aboutUsTable{
+    width: 33%;
+    height: 100%;
+    
+}
+.studentCard{
+    width: 100%;
+    height: 100%;
+}
+.studentCard table{
+    width: 100%;
+    height: 100%;
+    
+}
+.studentCard td{
+    width: 100%;
+    height: 25%;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 15px;
+    
+    text-align: center;
+}
+.logoContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.studentCard td img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.45);
+}
+button{
+    width: 15%;
+    height: 50%;
+    background-color: #44ff88;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #000;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+ }
