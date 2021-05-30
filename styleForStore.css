@@ -31,6 +31,12 @@
 }
 .belowNavigation h1{
     color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+}
+.belowNavigation abbr{
+    text-decoration: none;
 }
 select{
     width:20%;
@@ -72,15 +78,17 @@ padding: 15px 0px;
     width: 80%;
     height: 100%;
     margin: auto;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .glassy-innerContent .innerContent-imageRow{
     width: 100%;
     height: 74%;
+    text-shadow: 2px 2px 4px #000000;
+}
+.innerContent-imageRow .downloadDescription{
     color: #fff;
     text-align: center;
     font-size: large;
-    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .glassy-innerContent .innerContent-buttonRow{
     width: 100%;
