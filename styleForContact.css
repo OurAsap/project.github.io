@@ -51,6 +51,15 @@
 .subjectBox:focus{
     outline: none;
 }
+.labelForSubject{
+    width: 60%;
+    height: 30%;
+    margin: auto;
+    text-align: left;
+    color: #000;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .mailLink a{
     text-decoration: none;
     color: #000;
@@ -61,7 +70,7 @@
 }
 .bodyBox{
     width: 60%;
-    height: 90%;
+    height: 70%;
     border-radius: 15px;
     border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -71,6 +80,15 @@
 }
 .bodyBox:focus{
     outline: none;
+}
+.labelForBody{
+    width: 60%;
+    height: 30%;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    text-align: left;
+    margin: auto;
 }
 .fullFormSpace{
 width:80%;
@@ -107,6 +125,10 @@ td.aboutUsTable{
     border-radius: 15px;
     
     text-align: center;
+}
+.studentCard h1{
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
 }
 .logoContainer{
     width: 100%;
