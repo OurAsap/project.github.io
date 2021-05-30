@@ -4,6 +4,8 @@
     <title>YouTube Playlists | ASAP</title>
     <link rel="stylesheet" href="styleForYoutubePlaylist.css">
     <link rel="stylesheet" href="styleForIndex.css">
+    <link rel="stylesheet" href="styleForFooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         .defineW{
             width: 100%;
@@ -11,61 +13,95 @@
         }
     </style>
 </head>
-<body style="background: linear-gradient(to top, rgba(128,128,255,1),rgba(128,128,255,0.8),rgba(128,128,255,0.6));">
+<body>
     <!-- ********** M E N U ********** -->
     <div class="menuSection" style="top: 0px;">
         <a href="./index.html">Home</a>
-        <a href="./resource.html">Resource</a>
-        <a href="">Store</a>
-        <a href="">Contact</a>
+        <a href="./resource.html" class="activePage">Resource</a>
+        <a href="./store.html">Store</a>
+        <a href="./contact.html">Contact</a>
     </div>
     <!-- ********** M E N U ********** -->
-    <div class="sideBar">
-        <ul>
-            <a href="#nodejs" class="active"><li>Node.js</li></a>
-            <a href="#chromeshortcut"><li>Chrome Shortcut</li></a>
-            <li>ABC</li>
-            <li>ABCD</li>
-        </ul>
-    </div>
-    <div class="wholeContent">
-    <table class="PlaylistDescription" id="nodejs">
-        <tr>
-            <td><iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLD9SRxG6ST3GBsczn8OUKLaErhrvOz9zQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="forYoutubeIframe"></iframe></td>
-            <td>
-                <div class="cir"><strong>1</strong></div>
-                <div class="description">
-                <h2>Playlist by Telmo Sampaio</h2>
-                <ul>
-                    <li>jnvdjdn</li>
-                    <li>vdsdv</li>
-                    <li>vdsdsv</li>
-                    <li>vdsdsgrg</li>
-                </ul>
-            </div></td>
-        </tr>
-    </table>
-    <br><br>
-   
-    <table class="PlaylistDescription" id="chromeshortcut">
-        <tr>
-            <td><iframe width="100%" height="100%" src="https://www.youtube.com/embed/QoAc2WZ1kbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="forYoutubeIframe"></iframe></td>
-            <td>
-                <div class="cir"><strong>2</strong></div>
-                <div class="description"></div>
-            </td>
-        </tr>
-    </table>
+    <div class="mainClass">
+        <div class="contentSection">
+            <div class="space05"></div>
+            <div class="sideBar">
+                <a href="">HTML</a>
+                <a href="">CSS</a>
+                <a href="">Javascript</a>
+                <a href="#nodejs">Nodejs</a>
+                <a href="">Reactjs</a>
+            </div>
+            <div class="wholeContent">
+                
+            <table class="PlaylistDescription">
+                <tr>
+                    <td><iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="forYoutubeIframe"></iframe></td>
+                    <td>
+                        <div class="cir"><strong>1</strong></div>
+                        <div class="description">
+                    </div></td>
+                </tr>
+            </table>
 
-    <table class="PlaylistDescription">
-        <tr>
-            <td><iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="forYoutubeIframe"></iframe></td>
-            <td>
-                <div class="cir"><strong>2</strong></div>
-                <div class="description"></div>
-            </td>
-        </tr>
-    </table>
-</div>
+            <table class="PlaylistDescription" id="chromeshortcut">
+                <tr>
+                    <td><iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="forYoutubeIframe"></iframe></td>
+                    <td>
+                        <div class="cir"><strong>2</strong></div>
+                        <div class="description"></div>
+                    </td>
+                </tr>
+            </table>
+        
+            <table class="PlaylistDescription">
+                <tr>
+                    <td><iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="forYoutubeIframe"></iframe></td>
+                    <td>
+                        <div class="cir"><strong>3</strong></div>
+                        <div class="description"></div>
+                    </td>
+                </tr>
+            </table>
+            <table class="PlaylistDescription" id="nodejs">
+                <tr>
+                    <td><iframe width="100%" height="100%" src="https://www.youtube.com/embed/videoseries?list=PLD9SRxG6ST3GBsczn8OUKLaErhrvOz9zQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="forYoutubeIframe"></iframe></td>
+                    <td>
+                        <div class="cir"><strong>4</strong></div>
+                        <div class="description">
+                            <h2>Playlist by Telmo Sampaio</h2>
+                        <!-- <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul> -->
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table class="PlaylistDescription">
+                <tr>
+                    <td><iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="forYoutubeIframe"></iframe></td>
+                    <td>
+                        <div class="cir"><strong>5</strong></div>
+                        <div class="description"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </div>
+        <div class="footerSection" >
+            <table class="mainFooterTable">
+                <tr>
+                    <td class="socialMedia"><div class="myLink"><a href="./index.html"><i class="fas fa-home fa-3x"></i><h6>Home</h6></a></div></td>
+                    <td class="socialMedia"><div class="myLink"><a href="./contact.html#about"><i class="fas fa-users fa-3x"></i><h6>About Us</h6></a></div></td>
+                    <td class="messageData"><a href="#"><p>Made with <span class="fa fa-heart"></span> from us!</p></a></td>
+                    <td class="socialMedia"><div class="myLink"><a href="mailto:asapproject123@gmail.com?subject=Contacting..."><i class="fas fa-envelope-open-text fa-3x"></i><h6>Email</h6></a></div></td>
+                    <td class="socialMedia"><div class="myLink"><a href="https://github.com/OurAsap/project.github.io" ><i class="fab fa-github-square fa-3x"></i><h6>Github</h6></a></div></td>
+                </tr>
+            </table>
+        </div>
+    </div>
 </body>
 </html>

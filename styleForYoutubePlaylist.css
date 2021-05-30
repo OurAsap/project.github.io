@@ -2,17 +2,19 @@
     margin: 0px;
 }
 .PlaylistDescription{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 20%;
+    margin: auto;
 }
 .PlaylistDescription td{
     width: 50%;
-    height: 400px;
+    height: 100%;
     padding: 2.5%;
-    
+    background: linear-gradient(to right,rgba(255,255,255,0.6),rgba(255,255,255,0.4),rgba(255,255,255,0.2));
 }
 .PlaylistDescription tr{
-    background: linear-gradient(to right,#ffaacc,#f6cc88);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
 }
 .description{
     width: 80%;
@@ -24,7 +26,7 @@
     text-align: center;
     font-size: 24px;
     border-radius: 0px 40px 40px 0px;
-    box-shadow: 4px 4px 4px #000;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding-top: 20px;
     z-index: 1;
 }
@@ -54,51 +56,36 @@
     font-size: 40px;
     padding: auto;
 }
-.wholeContent{
-    margin-top: 50px;
-    margin-left: 182px;
+.contentSection .space05{
+    width: 100%;
+    height: 5%;
 }
-
-
+.contentSection .wholeContent{
+    width: 100%;
+    height: 95%;
+}
 
 /*Sidebar*/
 .sideBar{
-    width: 182px;
-    height:100%;
-    background:rgba(255,255,255,0.4);
+    width: 100%;
+    height:42.5px;
     position: fixed;
+    top:50px;
 }
-.sideBar li {
-    display: block;
-    color: #000;
-    background-color: cornsilk;
-    font-size: 28px;
-    padding: 12px;
-    border-bottom: #000 solid 1px;
-    margin-top: 2px;
-    box-shadow: #000 2px 2px 5px;
-    height: 20%;
-    text-align: center;
-  }
 .sideBar a{
+    float: left;
+    width: 20%;
+    height: 100%;
+    line-height: 42.5px;
+    background: linear-gradient(to right,rgba(255,255,255,0.6),rgba(255,255,255,0.4),rgba(255,255,255,0.6));
+    text-align: center;
+    font-size: 32px;
     text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.sideBar a:hover{
+    background-color: antiquewhite;
     color: #000;
 }
-.sideBar ul{
-    margin: 0px;
-    padding: 0px;
-}
-.sideBar li:hover{
-    background: gray;
-    color: black;
-}
-.active li{
-    background-color: #000;
-    color: #fff;
-}
-.active li:hover{
-    background-color: #000;
-    color: #fff;
-}
-
 /*Sidebar*/

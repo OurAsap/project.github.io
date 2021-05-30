@@ -38,7 +38,7 @@
     text-decoration: none;
     color: black;
 }
-.menuSection a:hover{
+.menuSection a:hover:not(.activePage){
     background: yellow;
 }
 /* ********** M E N U ********** */
