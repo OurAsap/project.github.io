@@ -34,6 +34,7 @@
     text-align: center;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px #000000;
+    font-size: 28px;
 }
 .belowNavigation abbr{
     text-decoration: none;
