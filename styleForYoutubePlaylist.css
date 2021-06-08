@@ -38,22 +38,19 @@
     margin: auto;
     border: 1px solid black;
     text-align: center;
-    font-size: 24px;
+    font-size: larger;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding-top: 20px;
     z-index: 1;
 }
 .description:hover{
-    width: 85%;
-    height: 85%;
-    font-size: 28px;
-    transition: 0.5s ease;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.2);
 }
-
 .description ul{
     text-align: left;
 }
+
 /* YouTube Iframe */
 .forYoutubeIframe{
     border-radius: 25px 25px 25px 25px;
@@ -97,13 +94,3 @@
     color: #000;
 }
 /*Sidebar*/
-
-@media (max-width:400px)
-{
-    .description{
-        width: 100%;
-    }
-}
-/* @media screen and (min-width: 480px) {
-
-  } */

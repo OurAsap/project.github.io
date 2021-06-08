@@ -118,17 +118,21 @@ td.aboutUsTable{
     height: 100%;
     
 }
+.studentCard tr{
+    width: 100%;
+}
 .studentCard td{
     width: 100%;
     height: 25%;
     background-color: rgba(0,0,0,0.1);
     border-radius: 15px;
-    
+    color: #000;
     text-align: center;
+    font-size: medium;
 }
 .studentCard h1{
-    color: #fff;
-    text-shadow: 2px 2px 4px #000000;
+    color: #000;
+    text-shadow: 2px 2px 4px #fff;
 }
 .logoContainer{
     width: 100%;
@@ -143,6 +147,13 @@ td.aboutUsTable{
     border-radius: 50%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.45);
 }
+.socialMedia i{
+    padding: 0% 5%;
+}
+.socialMedia a{
+    text-decoration: none;
+    color: #000;
+}
 button{
     width: 15%;
     height: 50%;
@@ -153,4 +164,4 @@ button{
     font-size: 18px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
- }
+}
